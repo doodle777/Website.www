@@ -6,7 +6,7 @@ export default {
   extends: BaseService,
   methods: {
     getVideoList() {
-      return BaseService.methods.get("v1/video/listAll");
+      return BaseService.methods.get("video/list");
     },
   },
 };

@@ -1,7 +1,8 @@
 <script>
 import Axios from "axios";
 
-var baseUrl = "http://localhost:4200/services/";
+// var baseUrl = "http://localhost:4200/services/";
+var baseUrl = "https://api.duanxu.tech/";
 
 export default {
   name: "BaseService",

@@ -35,21 +35,29 @@ export default {
         this.jumps = [{
                 code: "blog",
                 title: "nav.blog",
+                linkType: "link",
+                link: "https://blog.duanxu.tech",
                 image: "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png",
             },
             {
                 code: "image",
                 title: "nav.image",
+                linkType: "route",
+                link: "/image",
                 image: "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png",
             },
             {
                 code: "video",
                 title: "nav.video",
+                linkType: "route",
+                link: "/video",
                 image: "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png",
             },
             {
                 code: "about",
                 title: "nav.about",
+                linkType: "route",
+                link: "/about",
                 image: "https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png",
             }
         ]
