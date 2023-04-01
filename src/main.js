@@ -5,6 +5,8 @@ import en from './assets/i18n/en'
 import App from './App.vue'
 import Router from './route.js'
 import './plugins/element.js'
+import './plugins/particles.js'
+// import './plugins/sweet-scroll.js'
 
 Vue.config.productionTip = false
 
